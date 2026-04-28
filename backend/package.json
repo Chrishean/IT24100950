@@ -4,6 +4,9 @@
   "description": "Backend API for the MERN Item Manager Lab Test",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
